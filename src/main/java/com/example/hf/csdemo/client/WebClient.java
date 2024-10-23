@@ -1,4 +1,4 @@
-package com.example.client;
+package com.example.hf.csdemo.client;
 
 import java.io.IOException;
 import java.io.InputStream;
