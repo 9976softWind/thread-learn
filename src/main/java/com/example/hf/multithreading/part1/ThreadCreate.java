@@ -16,7 +16,7 @@ package com.example.hf.multithreading.part1;
  * Thread.sleep()可以把当前线程暂停一段时间。
  * @date 2025/3/21
  */
-public class ThreadCreateTest {
+public class ThreadCreate {
 
     public static void main(String[] args) {
         Thread myThread = new MyThread();
