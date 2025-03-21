@@ -2,7 +2,7 @@ package com.example.hf.multithreading.part1;
 
 /**
  * @author tdw
- * 创建新线程：
+ * 创建新线程：   https://liaoxuefeng.com/books/java/threading/new-thread/index.html
  * 创建线程的几种方式，（未列举线程池获取）
  *
  * Java用Thread对象表示一个线程，通过调用start()启动一个新线程；

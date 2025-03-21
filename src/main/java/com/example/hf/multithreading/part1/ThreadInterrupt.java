@@ -3,7 +3,7 @@ package com.example.hf.multithreading.part1;
 /**
  * @author tdw
  * @date 2025.3.21
- * 线程中断
+ * 线程中断     https://liaoxuefeng.com/books/java/threading/interrupt/index.html
  *  其他线程给该线程发一个信号，该线程收到信号后结束执行run()方法，使得自身线程能立刻结束运行。
  *  假设从网络下载一个100M的文件，如果网速很慢，用户等得不耐烦，就可能在下载过程中点“取消”，这时，程序就需要中断下载线程的执行。
  *  中断一个线程非常简单，只需要在其他线程中对目标线程调用interrupt()方法，目标线程需要反复检测自身状态是否是interrupted状态，如果是，就立刻结束运行。

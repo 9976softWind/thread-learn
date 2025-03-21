@@ -3,7 +3,7 @@ package com.example.hf.multithreading.part1;
 /**
  * @author tdw
  * @date 2025.3.21
- * 线程状态：
+ * 线程状态：    https://liaoxuefeng.com/books/java/threading/state/index.html
  * New：新创建的线程，尚未执行；
  *      Runnable：运行中的线程，正在执行run()方法的Java代码；
  *      Blocked：运行中的线程，因为某些操作被阻塞而挂起；

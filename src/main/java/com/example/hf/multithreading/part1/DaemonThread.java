@@ -5,7 +5,7 @@ import java.time.LocalTime;
 /**
  * @author tdw
  * @date 2025.3.21
- *
+ *  https://liaoxuefeng.com/books/java/threading/daemon/index.html
  * 守护线程是指为其他线程服务的线程。在JVM中，所有非守护线程都执行完毕后，无论有没有守护线程，虚拟机都会自动退出。
  *
  * 创建守护线程方法和普通线程一样，只是在调用start()方法前，调用setDaemon(true)把该线程标记为守护线程：
